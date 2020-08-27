@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+body {
+  font: 12px Helvetica;
+}
+
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+</style>
+
+<body>
+
+    <!-- Bootstrap grid setup -->
+    <div class="container">
+        <div class="row">
+            <div id="svg"></div>
+        </div>
+    </div>
+
+<!-- External JS libraries -->
+<script src="https://d3js.org/d3.v3.js"></script>
+<!-- Custom JS -->
+<script src="js/lines.js"></script>
+
+</body>
+</html>
