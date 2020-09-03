@@ -238,7 +238,7 @@ d3.select(path[0][0])
   .attr("stroke-dasharray", totalLength[0] + " " + totalLength[0] ) 
   .attr("stroke-dashoffset", totalLength[0])
   .transition()
-    .duration(5000)
+    .duration(7000)
     .ease("linear")
     .attr("stroke-dashoffset", 0);
 
@@ -246,7 +246,7 @@ d3.select(path[0][1])
   .attr("stroke-dasharray", totalLength[1] + " " + totalLength[1] )
   .attr("stroke-dashoffset", totalLength[1])
   .transition()
-    .duration(5000)
+    .duration(7000)
     .ease("linear")
     .attr("stroke-dashoffset", 0);
 
@@ -254,7 +254,7 @@ d3.select(path[0][2])
   .attr("stroke-dasharray", totalLength[2] + " " + totalLength[2] )
   .attr("stroke-dashoffset", totalLength[2])
   .transition()
-    .duration(5000)
+    .duration(7000)
     .ease("linear")
     .attr("stroke-dashoffset", 0);
 
@@ -262,7 +262,7 @@ d3.select(path[0][3])
   .attr("stroke-dasharray", totalLength[3] + " " + totalLength[3] )
   .attr("stroke-dashoffset", totalLength[3])
   .transition()
-  .duration(5000)
+  .duration(7000)
   .ease("linear")
   .attr("stroke-dashoffset", 0);
 
@@ -270,7 +270,7 @@ d3.select(path[0][4])
   .attr("stroke-dasharray", totalLength[4] + " " + totalLength[4] )
   .attr("stroke-dashoffset", totalLength[4])
   .transition()
-  .duration(5000)
+  .duration(7000)
   .ease("linear")
   .attr("stroke-dashoffset", 0);
 
